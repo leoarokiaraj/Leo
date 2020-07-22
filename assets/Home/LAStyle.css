@@ -1,0 +1,37 @@
+#LA {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  position: relative;
+}
+
+
+@keyframes laAnimate {
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+#LPath {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  animation: laAnimate 1s linear forwards 1s;
+}
+
+#APath1 {
+  stroke-dasharray: 1500;
+  stroke-dashoffset: 1500;
+  animation: laAnimate 1s linear forwards 1.8s;
+}
+
+#APath2 {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  animation: laAnimate 1.8s linear forwards 2.5s;
+}
+
+#APath3 {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  animation: laAnimate 3s linear forwards 3s;
+}
